@@ -1,0 +1,51 @@
+body {
+	background-color: lightblue;
+	font-family: Arial, Helvetica, Verdana;
+	font-size: 30pt;
+	color:#4e005e;/*hex for body text*/
+	text-align:center; /*keeps text aligned to the center*/
+
+}
+h1{
+	display:inline-block; /*shrinks width to fit text*/
+	background-color: purple; /*background only around text*/
+	font-size:32;
+	color:red; /*bright red text*/
+	padding:5px 10px; /*space around text*/
+	margin:20px auto; /*centers text inside the h1 box*/
+	text-align: center; /*centers text inside the h1 box*/
+}
+h2{
+	text-align:left; /*keeps paragraphs left-aligned*/
+	background-color:red; 
+	color:purple; /*purple text*/
+}
+img{
+	display: block; /*Makes the image act as a block element*/
+	float: left; /* aligns the image to the left*/
+	margin: 0 15px 15px 0; /*Adds space around image: top right bottom left*/
+}
+p.mango67{
+	background-color: white;
+	font-family: Arial, Helvetica, Verdana;
+	font-size: 12pt;
+	display:inline-block;	
+}
+
+p.mustard67{
+	display:inline-block;
+	background-color: lightyellow;
+	width:600px;
+	padding: 5px 10px;
+	margin:10px 0;
+	text-align:center;
+}
+.row{
+	display:flex;
+	gap:20px;
+}
+
+
+ol{
+	text-align:left
+}
